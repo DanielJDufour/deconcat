@@ -31,4 +31,7 @@ const deconcat = (str, debug) => {
   return tokens;
 }
 
-module.exports = deconcat;
+if (typeof module === "object") module.exports = deconcat;
+if (typeof window === "object") window.deconcat = deconcat;
+if (typeof self === "object") self.deconcat = deconcat;
+
