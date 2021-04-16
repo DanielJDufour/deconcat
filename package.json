@@ -1,0 +1,32 @@
+{
+  "name": "deconcat",
+  "version": "0.0.0",
+  "description": "Tokenize a Concatenation Expression",
+  "main": "deconcat.js",
+  "files": [
+    "deconcat.js"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/deconcat.git"
+  },
+  "keywords": [
+    "concat",
+    "numbers",
+    "string",
+    "tokenize",
+    "variables"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/deconcat/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/deconcat#readme",
+  "devDependencies": {
+    "flug": "*"
+  }
+}
