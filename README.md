@@ -1,6 +1,15 @@
 # deconcat
 > Tokenize a Concatenation Expression
 
+# features
+🔥 Blazing Fast O(1) Time. 
+
+🌳 Quotes (including backticks) are preserved. 
+
+👾 Spaces are properly ignored. 
+
+🍳 Handles quotes and plus signs inside of strings
+
 # install
 ```bash
 npm install deconcat
